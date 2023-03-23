@@ -4,16 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+			rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Lincoln's Portfolio</title>
 	</head>
 	<body>
 		<header class="header">
 			<nav class="nav">
-				<img class="menu-icon" src="/images/Icon - Menu.png" alt="" />
+				<a href="#">
+					<img class="menu-icon" src="/images/Icon - Menu.png" alt="" />
+				</a>
 			</nav>
 		</header>
-		<section class="intro">
+		<main class="intro">
 			<div class="intro-container">
 				<h1 class="intro-heading">
 					<span
@@ -31,23 +38,35 @@
 					</p>
 				</div>
 				<div class="social">
-					<div class="social-links">
-						<img src="/images/twitter.svg" alt="" />
-					</div>
-					<div class="social-links">
-						<img src="/images/Linkedin icon.svg" alt="" />
-					</div>
-					<div class="social-links">
-						<img src="/images/medium.svg" alt="" />
-					</div>
-					<div class="social-links">
-						<img src="/images/github.svg" alt="" />
-					</div>
-					<div class="social-links">
-						<img src="/images/angellist.svg" alt="" />
-					</div>
+					<ul class="social-links">
+						<li class="social-link">
+							<a href="https://twitter.com/"
+								><img src="/images/twitter.svg" alt="" />
+							</a>
+						</li>
+						<li class="social-link">
+							<a href="https://www.linkedin.com/in/"
+								><img src="/images/Linkedin icon.svg" alt="" />
+							</a>
+						</li>
+						<li class="social-link">
+							<a href="https://medium.com/"
+								><img src="/images/medium.svg" alt="" />
+							</a>
+						</li>
+						<li class="social-link">
+							<a href="https://github.com/"
+								><img src="/images/github.svg" alt="" />
+							</a>
+						</li>
+						<li class="social-link">
+							<a href="https://angel.com/"
+								><img src="/images/angellist.svg" alt="" />
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</section>
+		</main>
 	</body>
 </html>

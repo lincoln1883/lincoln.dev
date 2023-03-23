@@ -21,12 +21,12 @@
 	left: 311px;
 	top: 4px;
 	border-radius: 8px;
-	padding: 8px;
 }
 
 .menu-icon {
 	padding-right: 30px;
 }
+
 .intro {
 	display: flex;
 	flex-direction: column;
@@ -37,15 +37,15 @@
 .intro-container {
 	display: flex;
 	flex-direction: column;
+	margin-top: 60px;
 	gap: 1rem;
 	align-items: center;
-	justify-content: center;
 	height: 100vh;
-	width: 80%;
+	width: 85%;
 }
 
 .intro-heading {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	line-height: 52px;
 	text-align: center;
@@ -59,7 +59,7 @@
 }
 
 .intro-description p {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -78,12 +78,9 @@
 
 .social-links {
 	display: flex;
+	flex-direction: row;
+	gap: 1rem;
 	align-items: center;
 	justify-content: center;
-}
-
-@media (min-width: 375px) {
-}
-
-@media (min-width: 768px) {
+	list-style: none;
 }

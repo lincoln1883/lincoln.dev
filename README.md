@@ -90,8 +90,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-run `git clone https://github.com/lincoln1883/hello-microverse.git`
+  cd my-portfolio-website
+run `git clone https://github.com/lincoln1883/my-portfolio-website`
 ```
 
 ### Install

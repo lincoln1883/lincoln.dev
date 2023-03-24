@@ -220,7 +220,6 @@
   width: 100%;
   background-image: url('/images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
-  margin-top: 70px;
 }
 
 .about-me__text {
@@ -230,6 +229,7 @@
   align-items: center;
   justify-content: center;
   width: 90%;
+  margin-bottom: 50px;
 }
 
 .about-me__header {
@@ -293,25 +293,79 @@
   line-height: 32px;
   text-align: center;
   color: #172b4d;
-  margin-top: 50px;
   width: 90%;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 24px 20px;
 }
 
 .about-me__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.about-me__card {
   background-image: url('/images/Img-Placeholder.png');
+  background-size: auto;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 83%;
-  margin-top: 50px;
+  width: 327px;
+  height: 316px;
 }
 
-.about_me__image {
-  margin-top: 50px;
+.about-me__image {
+  padding-top: 20px;
+  display: flex;
+}
+
+.language-lists {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  list-style: none;
+  padding-bottom: 72px;
+}
+
+.language-list {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 #36b37f3d;
+  cursor: pointer;
+  color: #172b4d;
+  height: 48px;
+  width: 146px;
+  left: 304px;
+  top: 50px;
+  border-radius: 0;
+}
+
+button:active {
+  width: 81px;
+  height: 48px;
+  left: 108px;
+  top: calc(50% - 48px / 2 - 76.5px);
+  background: #36b37f;
+  border-radius: 4px;
 }

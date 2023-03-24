@@ -220,6 +220,7 @@
   width: 100%;
   background-image: url('/images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
+  margin-top: 70px;
 }
 
 .about-me__text {
@@ -283,4 +284,34 @@
   right: -18px;
   width: 68px;
   height: 127px;
+}
+
+.about-me_cards__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 50px;
+  width: 90%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me__cards {
+  background-image: url('/images/Img-Placeholder.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 83%;
+  margin-top: 50px;
+}
+
+.about_me__image {
+  margin-top: 50px;
 }

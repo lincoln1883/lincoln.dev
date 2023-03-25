@@ -121,7 +121,7 @@
 
 .indicator-container {
   height: 32px;
-  padding: 40px 0;
+  margin: 10px 0 20px;
 }
 
 .works-header {
@@ -132,29 +132,45 @@
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
-  margin-top: 70px;
 }
 
-.cards-work {
+.works-cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
 }
 
 .card {
+  background-image: url('./images/Img-Placeholder.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  overflow: hidden;
+  width: 327px;
+  height: 474px;
+  gap: 1rem;
+  margin-top: 20px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.text-container {
+  border-radius: 8px;
+  height: 222px;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 327px;
-  gap: 1rem;
-  margin-top: 50px;
-  border: 1px solid #8b9090;
-  border-radius: 8px;
+  gap: 8px;
 }
 
 .title-container {
-  padding: 10px;
+  margin: 16px;
+  height: 57px;
+  width: 295px;
 }
 
 .project-title {
@@ -173,9 +189,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  gap: 3px;
+  width: 329px;
+  height: 32px;
+  gap: 8px;
   list-style: none;
+  background-color: #fff;
 }
 
 .tech li {
@@ -188,16 +206,16 @@
   font-weight: 600;
   border-radius: 5px;
   padding: 10px 10px;
+  color: #3a4a42;
 }
 
 .project-button {
   width: 122px;
   height: 48px;
-  background: hwb(155 21% 30%);
+  background: #36b37f;
   border-radius: 4px;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
@@ -207,9 +225,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  width: 100%;
-  margin-bottom: 20px;
+  padding: 0 0 20px;
+  width: 305px;
+  height: 69px;
+  margin-top: 20px;
 }
 
 .about-me {
@@ -292,7 +311,7 @@
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #172b4d;
+  color: #344563;
   width: 90%;
   height: 48px;
   display: flex;
@@ -350,12 +369,22 @@
   margin-top: 10px;
 }
 
+button:enabled {
+  border: 1px solid #ced6de;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
 button:hover {
-  box-shadow: 0 8px 16px 0 #36b37f3d;
-  cursor: pointer;
+  transform: calc(50% - 48px / 2 - 76.5px);
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
 }
 
 button:active {
-  background-color: #008552;
+  background: #008552;
+  transform: calc(50% - 48px / 2 - 76.5px);
+  border: 1px solid #ced6de;
   border-radius: 4px;
 }

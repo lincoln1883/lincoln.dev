@@ -353,19 +353,9 @@
 button:hover {
   box-shadow: 0 8px 16px 0 #36b37f3d;
   cursor: pointer;
-  color: #172b4d;
-  height: 48px;
-  width: 146px;
-  left: 304px;
-  top: 50px;
-  border-radius: 0;
 }
 
 button:active {
-  width: 81px;
-  height: 48px;
-  left: 108px;
-  top: calc(50% - 48px / 2 - 76.5px);
-  background: #36b37f;
+  background-color: #008552;
   border-radius: 4px;
 }

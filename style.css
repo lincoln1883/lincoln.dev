@@ -424,3 +424,71 @@ form {
   width: 100%;
   height: 100%;
 }
+form input{
+  width: 100%;
+  height: 48px;
+  margin-bottom: 24px;
+  padding: 15px 16px;
+  font-family: 'Inter',sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #6B778C;
+border: 1px solid #D0D9D4;
+border-radius: 4px;
+}
+.textarea{
+  width: 327px;
+  height: 114px;
+  position: relative;
+
+}
+.textarea textarea{
+  width: 100%;
+  height: 114px;
+  padding: 12px;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #42526E;
+  border: 1px solid #60C095;
+  border-radius: 4px
+}
+.icon-resizer{
+  width: 10.5px;
+  height: 10.5px;
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  color: #60C095;
+}
+.submit-button{
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  padding: 11px;
+    margin: 24px 0 31px;
+}
+.contact-details{
+  width: 381px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-details h5{
+  font-family: 'Inter',sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #42526E;
+}

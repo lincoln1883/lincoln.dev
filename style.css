@@ -410,8 +410,7 @@ button:active {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form-container {
@@ -437,8 +436,8 @@ form input {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #6B778C;
-  border: 1px solid #D0D9D4;
+  color: #6b778c;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
@@ -447,7 +446,6 @@ form input {
   height: 114px;
   position: relative;
   background-color: #fff;
-
 }
 
 .textarea textarea {
@@ -459,9 +457,9 @@ form input {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #42526E;
-  border: 1px solid #60C095;
-  border-radius: 4px
+  color: #42526e;
+  border: 1px solid #60c095;
+  border-radius: 4px;
 }
 
 .icon-resizer {
@@ -471,7 +469,7 @@ form input {
   position: absolute;
   right: 1px;
   bottom: 1px;
-  color: #60C095;
+  color: #60c095;
 }
 
 .submit-button {
@@ -502,7 +500,7 @@ form input {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
 }
 
 footer {

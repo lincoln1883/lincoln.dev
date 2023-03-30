@@ -5,7 +5,19 @@
   font-family: 'Inter', sans-serif;
 }
 
-.header {
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.main-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+ .header {
   display: flex;
   align-items: center;
   height: 48px;
@@ -33,6 +45,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .intro-container {
@@ -80,7 +93,7 @@
   flex-direction: row;
   gap: 1rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   width: 100%;
   margin-bottom: 15px;
@@ -101,6 +114,15 @@
   width: 40px;
   height: 40px;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 .works {
   display: flex;
@@ -230,10 +252,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   width: 100%;
-  background-image: url('/images/illustration-about-me-mobile.svg');
+  background-image: url('./images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
+  margin-top: 70px;
 }
 
 .about-me__text {
@@ -253,7 +276,6 @@
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  margin-top: 50px;
   width: 90%;
   height: 48px;
   display: flex;
@@ -291,7 +313,7 @@
 
 .side-image {
   position: absolute;
-  top: 0;
+  top: -70px;
   right: -18px;
   width: 68px;
   height: 127px;
@@ -321,15 +343,16 @@
 }
 
 .about-me__card {
-  background-image: url('/images/Img-Placeholder.png');
+  background-image: url('./images/Img-Placeholder.png');
   background-size: auto;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   width: 327px;
   height: 316px;
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
 }
 
 .about-me__image {
@@ -341,10 +364,9 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 90%;
+  gap: 6px;
+  justify-content: center;
   list-style: none;
-  padding-bottom: 72px;
 }
 
 .language-list {
@@ -383,7 +405,7 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 375px;
+  width: 100%;
   height: 879px;
   background-image: url('/images/illustration-contact-form-mobile.svg');
   background-repeat: no-repeat;
@@ -449,13 +471,13 @@ form input {
 }
 
 .icon-resizer {
-  border-radius: 3px;
+  border-radius: 5px;
   width: 20px;
   height: 20px;
   background-color: #fff;
   position: absolute;
-  right: 1px;
-  bottom: 1px;
+  right: 1.5px;
+  bottom: 1.5px;
   color: #60c095;
 }
 
@@ -500,15 +522,51 @@ footer {
   right: -10px;
 }
 
-@media(max-width:767px) {
-  .nav-list {
-    visibility: hidden;
+
+@media(min-width:375px){
+  .about-me__paragraph{
+    width: 85%;
   }
 
+  .about-me{
+    height: 1522px;
+  }
+  .contact-me{
+    height: 879px;
+  }
+  .works{
+    height: 3283px;
+  }
+  .main-heading{
+    height: 653.32px;
+  }
+  
+  .social{
+    width: 0;
+  }
+  .action{
+    margin: 0;
+  }
+}
+
+@media(max-width:767px) {
+  .nav-list, 
+  .form-img-center, 
+  .form-desktop-image, 
+  .desktop-img ,
+  .aboutme2-desktop-img{
+    display: none;
+  }
+
+
   .intro {
-    background-image: url('/images/header-illsutration-mobile.svg');
+    background-image: url('./images/header-illsutration-mobile.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
+  }
+
+  .contact-heading{
+    margin-top: 0;
   }
 }
 
@@ -551,8 +609,8 @@ footer {
     color: #344563;
   }
 
-  nav .menu-icon {
-    visibility: hidden;
+  .menu-icon {
+    display: none;
   }
 
   .main-heading {
@@ -560,21 +618,18 @@ footer {
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
+    height: 1059px;
   }
 
   .intro {
-    display: flex;
-    align-items: center;
-    height: 756px;
+    height: 800px;
   }
 
   .intro-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: start;
     width: 65%;
-    margin: 100px 0 310px;
     height: 756px;
+    margin-top: 120px;
   }
 
   .intro-heading {
@@ -619,10 +674,174 @@ footer {
     order: 3;
   }
 
+  .social-links a img{
+    width: 25px;
+    height: 25px;
+  }
+
+
   a.action-button {
     border: 1px solid #DFE1E6;
     border-radius: 32px;
     width: 40px;
     height: 40px;
+  }
+
+  .action{
+    margin-top: 70px;
+  }
+
+  .main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  .header-container .indicator-container img {
+    display: none;
+  }
+
+  .works{
+    height: 100%;
+  }
+
+  .works-cards {
+    grid-template-columns: auto auto auto;
+  }
+
+  .card,
+  .text-container{
+    background-size: contain;
+    width: 369px;
+  }
+
+  .side-image {
+    display: none;
+  }
+
+
+  .about-me {
+    width: 100%;
+    height: 739px;
+    background-image: url('./images/illustration-about-me-desktop.png');
+    background-repeat: no-repeat;
+    justify-content: end;
+    background-position-x: right;
+    margin-top: 0;
+  }
+
+  .about-me__text{
+    width: 70%;
+  }
+
+  .form-img-center {
+    position: absolute;
+    width: 130px;
+    height: 105px;
+    left: 274px;
+    bottom: -150px;
+  }
+
+
+  .about-me__cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
+    height: 316px;
+    justify-content: center;
+  }
+
+  .about-me__card {
+    width: 369px;
+    height: 316px;
+    background-size: cover;
+  }
+
+  .about-me__header {
+    width: 50%;
+    height: 48px;
+  }
+
+  .about-me__paragraph {
+    width: 80%;
+    height: 96px;
+  }
+
+  .contact-me {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 490px;
+    margin-bottom: 158px;
+  }
+
+  .contact-heading {
+    width: 463px;
+    height: 256px;
+    font-size: 30px;
+  }
+
+  .form-container {
+    width: 684px;
+    height: 330px;
+  }
+
+  .form-desktop-image {
+    position: absolute;
+    bottom: -170px;
+    right: -80px;
+  }
+
+  form {
+    align-items: start;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+
+  .contact-details {
+    display: none;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    height: 72px;
+    justify-content: center;
+  }
+
+  .form-side__image {
+    display: none;
+  }
+
+  .aboutme2-desktop-img{
+    position: absolute;
+    width: 288.04px;
+    height: 126.82px;
+    left: -253px;
+    bottom: 20px;
+  }
+
+  .desktop-img {
+    position: absolute;
+    width: 236px;
+    height: 261.09px;
+    bottom: -190px;
+    left: -70px;
   }
 }

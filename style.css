@@ -5,19 +5,19 @@
   font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-.main-heading{
+.main-heading {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
 }
 
- .header {
+.header {
   display: flex;
   align-items: center;
   height: 48px;
@@ -39,7 +39,6 @@ body{
 .menu-icon {
   padding-right: 20px;
 }
-
 
 .intro {
   display: flex;
@@ -122,7 +121,6 @@ body{
   align-items: center;
   width: 100%;
 }
-
 
 .works {
   display: flex;
@@ -351,7 +349,7 @@ body{
   align-items: center;
   width: 327px;
   height: 316px;
-  border: 1px solid #C1C7D0;
+  border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
 
@@ -522,42 +520,44 @@ footer {
   right: -10px;
 }
 
-
-@media(min-width:375px){
-  .about-me__paragraph{
+@media (min-width: 375px) {
+  .about-me__paragraph {
     width: 85%;
   }
 
-  .about-me{
+  .about-me {
     height: 1522px;
   }
-  .contact-me{
+
+  .contact-me {
     height: 879px;
   }
-  .works{
+
+  .works {
     height: 3283px;
   }
-  .main-heading{
+
+  .main-heading {
     height: 653.32px;
   }
-  
-  .social{
+
+  .social {
     width: 0;
   }
-  .action{
+
+  .action {
     margin: 0;
   }
 }
 
-@media(max-width:767px) {
-  .nav-list, 
-  .form-img-center, 
-  .form-desktop-image, 
-  .desktop-img ,
-  .aboutme2-desktop-img{
+@media (max-width: 767px) {
+  .nav-list,
+  .form-img-center,
+  .form-desktop-image,
+  .desktop-img,
+  .aboutme2-desktop-img {
     display: none;
   }
-
 
   .intro {
     background-image: url('./images/header-illsutration-mobile.svg');
@@ -565,12 +565,12 @@ footer {
     background-size: contain;
   }
 
-  .contact-heading{
+  .contact-heading {
     margin-top: 0;
   }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .header {
     height: 72px;
     width: 100%;
@@ -674,20 +674,19 @@ footer {
     order: 3;
   }
 
-  .social-links a img{
+  .social-links a img {
     width: 25px;
     height: 25px;
   }
 
-
   a.action-button {
-    border: 1px solid #DFE1E6;
+    border: 1px solid #dfe1e6;
     border-radius: 32px;
     width: 40px;
     height: 40px;
   }
 
-  .action{
+  .action {
     margin-top: 70px;
   }
 
@@ -711,7 +710,7 @@ footer {
     display: none;
   }
 
-  .works{
+  .works {
     height: 100%;
   }
 
@@ -720,7 +719,7 @@ footer {
   }
 
   .card,
-  .text-container{
+  .text-container {
     background-size: contain;
     width: 369px;
   }
@@ -728,7 +727,6 @@ footer {
   .side-image {
     display: none;
   }
-
 
   .about-me {
     width: 100%;
@@ -740,7 +738,7 @@ footer {
     margin-top: 0;
   }
 
-  .about-me__text{
+  .about-me__text {
     width: 70%;
   }
 
@@ -751,7 +749,6 @@ footer {
     left: 274px;
     bottom: -150px;
   }
-
 
   .about-me__cards {
     display: grid;
@@ -829,7 +826,7 @@ footer {
     display: none;
   }
 
-  .aboutme2-desktop-img{
+  .aboutme2-desktop-img {
     position: absolute;
     width: 288.04px;
     height: 126.82px;

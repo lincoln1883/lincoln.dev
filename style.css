@@ -74,6 +74,15 @@ button{
 
 .intro-heading span {
   color: #172b4d;
+  transition: 1s;
+  transition-duration: 0.7s;
+}
+.intro-heading span:hover{
+  font-size: 60px;
+  word-spacing: 2px;
+  color: #9b9b9b;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .intro-description p {

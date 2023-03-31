@@ -10,6 +10,11 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
 .main-heading {
   display: flex;
   flex-direction: column;
@@ -69,6 +74,16 @@ body {
 
 .intro-heading span {
   color: #172b4d;
+  transition: 1s;
+  transition-duration: 0.7s;
+}
+
+.intro-heading span:hover {
+  font-size: 60px;
+  word-spacing: 2px;
+  color: #9b9b9b;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .intro-description p {
@@ -387,10 +402,17 @@ button:enabled {
 }
 
 button:hover {
-  transform: calc(50% - 48px / 2 - 76.5px);
+  width: 200px;
+  font-weight: 900;
+
+  /*    background-color: #92cb92; */
+  font-size: x-large;
+  color: #a07597;
+  text-transform: capitalize;
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
+  padding: 0;
 }
 
 button:active {

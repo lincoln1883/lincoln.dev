@@ -6,7 +6,7 @@
 }
 
 body {
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+    margin-bottom: 0;
 }
 
 .header {
@@ -154,8 +155,8 @@ body {
 
 .works-cards {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
+  grid-gap: 2rem;
 }
 
 .card {
@@ -221,7 +222,7 @@ body {
   font-size: 12px;
   font-weight: 600;
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 10px 5px;
   color: #3a4a42;
 }
 
@@ -250,22 +251,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
   width: 100%;
-  background-image: url('./images/illustration-about-me-mobile.svg');
-  background-repeat: no-repeat;
   margin-top: 70px;
 }
 
 .about-me__text {
   position: relative;
   display: flex;
+  background-image: url('./images/illustration-about-me-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: co;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 80%;
   margin-bottom: 50px;
 }
+
 
 .about-me__header {
   font-style: normal;
@@ -405,7 +408,7 @@ button:active {
   align-items: center;
   width: 100%;
   height: 879px;
-  background-image: url('/images/illustration-contact-form-mobile.svg');
+  background-image: url('./images/illustration-contact-form-mobile.svg');
   background-repeat: no-repeat;
   position: relative;
 }
@@ -548,9 +551,28 @@ footer {
   .action {
     margin: 0;
   }
+
+  .about-me__text{
+    background-position-y: bottom;
+  }
 }
 
-@media (max-width: 767px) {
+@media(max-width: 375) {
+  .main-heading {
+    margin-bottom: 0;
+  }
+
+  .side-image{
+    top: -70px;
+  }
+
+  .about-me__text{
+    width: 100%;
+    background-position-y: bottom;
+  }
+}
+
+@media (max-width:767px) {
   .nav-list,
   .form-img-center,
   .form-desktop-image,
@@ -559,16 +581,31 @@ footer {
     display: none;
   }
 
+  .main-heading{
+    margin-bottom: 200px;
+  }
+
+  .side-image{
+    top: 0;
+  }
+  
+  .about-me__text{
+    margin: 30px;
+    height: 100%;
+    width: 90%;
+  }
+
   .intro {
     background-image: url('./images/header-illsutration-mobile.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
   }
 
-  .contact-heading {
-    margin-top: 0;
+  .intro-container{
+    justify-content: center;
   }
 }
+
 
 @media (min-width: 768px) {
   .header {
@@ -616,7 +653,6 @@ footer {
   .main-heading {
     background-image: url('./images/Header-llustration-desktop.svg');
     background-position: top;
-    background-size: 100%;
     background-repeat: no-repeat;
     height: 1059px;
   }
@@ -715,7 +751,14 @@ footer {
   }
 
   .works-cards {
-    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(369px, 1fr));
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
   }
 
   .card,
@@ -730,31 +773,34 @@ footer {
 
   .about-me {
     width: 100%;
-    height: 739px;
+    height: 100%;
     background-image: url('./images/illustration-about-me-desktop.png');
     background-repeat: no-repeat;
-    justify-content: end;
+    justify-content: center;
     background-position-x: right;
     margin-top: 0;
   }
 
   .about-me__text {
-    width: 70%;
+    width: 60%;
+    background-image: initial;
   }
 
   .form-img-center {
     position: absolute;
     width: 130px;
     height: 105px;
-    left: 274px;
-    bottom: -150px;
+    left: 234px;
+    bottom: -100px;
   }
 
   .about-me__cards {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     width: 100%;
-    height: 316px;
+    height: 100%;
     justify-content: center;
   }
 
@@ -771,7 +817,7 @@ footer {
 
   .about-me__paragraph {
     width: 80%;
-    height: 96px;
+    height: 100%;
   }
 
   .contact-me {
@@ -796,7 +842,7 @@ footer {
 
   .form-desktop-image {
     position: absolute;
-    bottom: -170px;
+    bottom: -140px;
     right: -80px;
   }
 
@@ -820,6 +866,7 @@ footer {
     width: 100%;
     height: 72px;
     justify-content: center;
+    position: relative;
   }
 
   .form-side__image {
@@ -838,7 +885,13 @@ footer {
     position: absolute;
     width: 236px;
     height: 261.09px;
-    bottom: -190px;
+    bottom: -150px;
     left: -70px;
+  }
+  hr{
+    background: #DFE1E6;
+    width: 100%;
+    position: absolute;
+    top: 0;
   }
 }

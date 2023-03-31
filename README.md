@@ -123,12 +123,17 @@ open the index.html file in your browser using the live server extension.
 
 ## 👥 Author <a name="authors"></a>
 
-####👤 Lincoln Gibson
+#### 👤 Lincoln Gibson
 
 - GitHub: [lincoln1883](https://github.com/lincoln1883)
 - Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
 - LinkedIn: [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
 
+#### 👤 Steven Wafeek
+
+- GitHub: [@Cavein254](https://github.com/Cavein254)
+- Twitter: [@JohnMuthua5](https://twitter.com/JohnMuthua5)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muthuahjohn/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

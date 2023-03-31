@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .header {
@@ -261,14 +261,12 @@ body {
   background-image: url('./images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-size: co;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 80%;
   margin-bottom: 50px;
 }
-
 
 .about-me__header {
   font-style: normal;
@@ -552,27 +550,27 @@ footer {
     margin: 0;
   }
 
-  .about-me__text{
+  .about-me__text {
     background-position-y: bottom;
   }
 }
 
-@media(max-width: 375) {
+@media (max-width: 375) {
   .main-heading {
     margin-bottom: 0;
   }
 
-  .side-image{
+  .side-image {
     top: -70px;
   }
 
-  .about-me__text{
+  .about-me__text {
     width: 100%;
     background-position-y: bottom;
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .nav-list,
   .form-img-center,
   .form-desktop-image,
@@ -581,15 +579,15 @@ footer {
     display: none;
   }
 
-  .main-heading{
+  .main-heading {
     margin-bottom: 200px;
   }
 
-  .side-image{
+  .side-image {
     top: 0;
   }
-  
-  .about-me__text{
+
+  .about-me__text {
     margin: 30px;
     height: 100%;
     width: 90%;
@@ -601,11 +599,10 @@ footer {
     background-size: 100%;
   }
 
-  .intro-container{
+  .intro-container {
     justify-content: center;
   }
 }
-
 
 @media (min-width: 768px) {
   .header {
@@ -888,8 +885,9 @@ footer {
     bottom: -150px;
     left: -70px;
   }
-  hr{
-    background: #DFE1E6;
+
+  hr {
+    background: #dfe1e6;
     width: 100%;
     position: absolute;
     top: 0;

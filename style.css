@@ -275,7 +275,7 @@ button {
   display: flex;
   background-image: url('./images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
-  background-size: co;
+  background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -592,6 +592,12 @@ footer {
   }
 }
 
+@media (min-width: 350px){
+  .side-image{
+    top: -50px;
+  }
+}
+
 @media (max-width: 767px) {
   .nav-list,
   .form-img-center,
@@ -602,7 +608,7 @@ footer {
   }
 
   .main-heading {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   .side-image {

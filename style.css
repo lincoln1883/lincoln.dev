@@ -592,8 +592,8 @@ footer {
   }
 }
 
-@media (min-width: 350px){
-  .side-image{
+@media (min-width: 350px) {
+  .side-image {
     top: -50px;
   }
 }

@@ -8,7 +8,7 @@
 
 # 📗 Table of Contents
 
-- [📖 Lincoln's Portfolio ](#-lincoln-portfolio-)
+- [📖 Lincoln's Portfolio ](#-lincolns-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,6 +21,8 @@
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Author ](#-author-)
+      - [👤 Lincoln Gibson](#-lincoln-gibson)
+      - [👤 Steven Wafeek](#-steven-wafeek)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -55,9 +57,10 @@ This is my first original project that designed to showcase my catalog, it is bu
 
 ### Key Features <a name="key-features"></a>
 
-- Added index.html file
-- Added style.css file
-- Added linters
+- **[Added Desktop version]**
+- **[Added Mobile version]**
+- **[Added Button Animation when hover or clicked]**
+- **[Added Text transition to the main Heading]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +68,7 @@ This is my first original project that designed to showcase my catalog, it is bu
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming soon
+- [Live Demo Link](https://lincoln1883.github.io/my-portfolio-website/)
 
 <!-- GETTING STARTED -->
 
@@ -132,17 +135,16 @@ open the index.html file in your browser using the live server extension.
 #### 👤 Steven Wafeek
 
 - GitHub: [@Cavein254](https://github.com/Cavein254)
-- Twitter: [@JohnMuthua5](https://twitter.com/JohnMuthua5)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muthuahjohn/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add more features
-- Add more styling
-- Add more functionality
+- **[Add functionality using Javascript]**
+- **[Add styling using SASS]**
+- **[Add more functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +170,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thank you Microverse.
+- Thank you Microverse for allowing me the opportunity to learn and grow.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

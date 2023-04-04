@@ -17,12 +17,12 @@
 			<section class="header">
 				<nav class="nav">
 					<a href="#">
-						<img class="menu-icon" src="./images/Icon - Menu.png" alt="" />
+						<img class="menu-icon" src="./images/Icon-Menu.png" alt="" />
 					</a>
 					<ul class="nav-list">
-						<li class="nav-list--item"><a href="">Portfolio</a></li>
-						<li class="nav-list--item"><a href="">About</a></li>
-						<li class="nav-list--item"><a href="">Contact</a></li>
+						<li class="nav-list--item"><a href="#portfolio">Portfolio</a></li>
+						<li class="nav-list--item"><a href="#about">About</a></li>
+						<li class="nav-list--item"><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</section>
@@ -52,7 +52,7 @@
 							</li>
 							<li class="social-link">
 								<a href="https://www.linkedin.com/in/"
-									><img src="./images/Linkedin icon.svg" alt="" />
+									><img src="./images/Linkedin.svg" alt="" />
 								</a>
 							</li>
 							<li class="social-link">
@@ -84,7 +84,7 @@
 			</section>
 		</header>
 		<main class="main">
-			<section class="works">
+			<section id="portfolio" class="works">
 				<div class="header-container">
 					<h2 class="works-header">My Recent Works</h2>
 					<div class="indicator-container">
@@ -95,7 +95,7 @@
 					<div class="card">
 						<div class="text-container">
 							<div class="title-container">
-								<h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+								<h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
 							</div>
 							<ul class="tech">
 								<li>Ruby on Rails</li>
@@ -113,7 +113,7 @@
 					<div class="card">
 						<div class="text-container">
 							<div class="title-container">
-								<h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+								<h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
 							</div>
 							<ul class="tech">
 								<li>Ruby on Rails</li>
@@ -131,7 +131,7 @@
 					<div class="card">
 						<div class="text-container">
 							<div class="title-container">
-								<h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+								<h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
 							</div>
 							<ul class="tech">
 								<li>Ruby on Rails</li>
@@ -149,7 +149,7 @@
 					<div class="card">
 						<div class="text-container">
 							<div class="title-container">
-								<h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+								<h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
 							</div>
 							<ul class="tech">
 								<li>Ruby on Rails</li>
@@ -167,7 +167,7 @@
 					<div class="card">
 						<div class="text-container">
 							<div class="title-container">
-								<h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+								<h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
 							</div>
 							<ul class="tech">
 								<li>Ruby on Rails</li>
@@ -185,7 +185,7 @@
 					<div class="card">
 						<div class="text-container">
 							<div class="title-container">
-								<h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+								<h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
 							</div>
 							<ul class="tech">
 								<li>Ruby on Rails</li>
@@ -202,13 +202,13 @@
 					</div>
 				</div>
 			</section>
-			<section class="about-me">
+			<section id="about" class="about-me">
 				<div class="about-me__text">
 					<img
 						class="aboutme2-desktop-img"
 						src="./images/illustration-about-me-2-desktop@2x.png"
 						alt="" />
-					<img class="side-image" src="./images/Mask Group.svg" alt="" />
+					<img class="side-image" src="./images/Mask-Group.svg" alt="" />
 					<h2 class="about-me__header">About me</h2>
 					<p class="about-me__paragraph">
 						I can help you build a product,feature or website Look through some
@@ -226,7 +226,7 @@
 								alt="" />
 						</div>
 						<div class="about-me_cards__title">
-							<h4>Languages</h4>
+							<h3>Languages</h3>
 						</div>
 						<ul class="language-lists">
 							<li class="language-list">JavaScript</li>
@@ -243,7 +243,7 @@
 								alt="" />
 						</div>
 						<div class="about-me_cards__title">
-							<h4>Framework</h4>
+							<h3>Framework</h3>
 						</div>
 						<ul class="language-lists">
 							<li class="language-list">React.js</li>
@@ -261,7 +261,7 @@
 								alt="" />
 						</div>
 						<div class="about-me_cards__title">
-							<h4>Skills</h4>
+							<h3>Skills</h3>
 						</div>
 						<ul class="language-lists">
 							<li class="language-list">Database Management</li>
@@ -273,7 +273,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="contact-me">
+			<section id="contact" class="contact-me">
 				<h3 class="contact-heading">
 					I'm always interested in hearing about new projects, so if you'd like
 					to chat please get in touch.
@@ -298,15 +298,15 @@
 							required />
 						<div class="textarea">
 							<textarea
-								type="text"
 								id="message"
 								name="message"
 								placeholder="Hey I'd like to connect to..."
 								maxlength="500"
-								required></textarea>
+								required>
+								</textarea>
 							<img
 								class="icon-resizer"
-								src="./images/Icon - Resizer Handle.png"
+								src="./images/Icon-Resizer-Handle.png"
 								alt="" />
 						</div>
 						<button type="submit" class="submit-button">Get in touch</button>
@@ -316,7 +316,7 @@
 					</form>
 					<img
 						class="form-desktop-image"
-						src="./images/contact form-illustratoin-3-desktop.svg"
+						src="./images/contact-form-illustratoin-3-desktop.svg"
 						alt="" />
 					<img class="form-side__image" src="./images/Frame.png" alt="" />
 					<img class="desktop-img" src="./images/Frame@2x.png" alt="" />
@@ -338,7 +338,7 @@
 					</li>
 					<li class="social-link">
 						<a href="https://www.linkedin.com/in/"
-							><img src="./images/Linkedin icon.svg" alt="" />
+							><img src="./images/Linkedin.svg" alt="" />
 						</a>
 					</li>
 					<li class="social-link">

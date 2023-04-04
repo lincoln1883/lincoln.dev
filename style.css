@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -404,8 +405,6 @@ button:enabled {
 button:hover {
   width: 200px;
   font-weight: 900;
-
-  /*    background-color: #92cb92; */
   font-size: x-large;
   color: #a07597;
   text-transform: capitalize;
@@ -428,8 +427,6 @@ button:active {
   align-items: center;
   width: 100%;
   height: 879px;
-  background-image: url('./images/illustration-contact-form-mobile.svg');
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -529,6 +526,11 @@ form input {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+  text-decoration: none;
+}
+
+.contact-details a {
+  text-decoration: none;
 }
 
 footer {
@@ -577,7 +579,7 @@ footer {
   }
 }
 
-@media (max-width: 375) {
+@media (max-width: 375px) {
   .main-heading {
     margin-bottom: 0;
   }

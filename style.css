@@ -526,6 +526,11 @@ form input {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+  text-decoration: none;
+}
+
+.contact-details a {
+  text-decoration: none;
 }
 
 footer {
@@ -574,7 +579,7 @@ footer {
   }
 }
 
-@media (max-width: 375) {
+@media (max-width: 375px) {
   .main-heading {
     margin-bottom: 0;
   }

@@ -609,61 +609,60 @@ footer {
     display: none;
   }
 
-  .nav-list--item a{
+  .nav-list--item a {
     text-decoration: none;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #3A4A42;
+    color: #3a4a42;
     padding-left: 20px;
   }
 
-  
-.display-menu{
-  list-style: none;
-  width: 101%;
-  height: 105%;
-  padding: 20px;
-  position: absolute;
-  left: 0;
-  top: -10px;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom: 40px solid #c5c4c4b5;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-}
+  .display-menu {
+    list-style: none;
+    width: 101%;
+    height: 105%;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 40px solid #c5c4c4b5;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  }
 
-.menu-toggle-close{
-  display: inline-block;
-  text-decoration: none;
-  font-size: 40px;
-  margin-left: 90%;
-  color: #67798E;
-}
+  .menu-toggle-close {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 90%;
+    color: #67798e;
+  }
 
-.nav-list--item a{
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #3A4A42;
-  padding-left: 20px;
-}
+  .nav-list--item a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #3a4a42;
+    padding-left: 20px;
+  }
 
-.mobile-menu-img{
-  position: absolute;
-  bottom: -30px;
-  left: 50% ;
-  transform: translate(-50%);
-}
+  .mobile-menu-img {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 
   .main-heading {
     margin-bottom: 200px;
@@ -731,6 +730,10 @@ footer {
 
   .menu-toggle-open,
   .menu-toggle-close {
+    display: none;
+  }
+
+  .mobile-menu-img {
     display: none;
   }
 
@@ -980,5 +983,3 @@ footer {
     top: 0;
   }
 }
-
-

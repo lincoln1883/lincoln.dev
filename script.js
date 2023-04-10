@@ -21,3 +21,57 @@ navLinks.forEach((element) => {
     document.body.style.position = '';
   });
 });
+
+
+// projects 
+
+const projects = [
+{
+  name: "Project 1",
+  description:"This is a brief description of the project",
+  image:"./images/Indicator.png",
+  technologies:["HTML","CSS","JavaScript"],
+  liveVersion:"https://www.example.com/",
+  source:"https://www.github.com/example",
+},
+{
+  name: "Project 2",
+  description:"This is a brief description of the project",
+  image:"./images/Indicator.png",
+  technologies:["HTML","CSS","JavaScript"],
+   liveVersion:"https://www.example.com/",
+  source:"https://www.github.com/example",
+},
+  {
+  name: "Project 3",
+  description:"This is a brief description of the project",
+  image:"./images/Indicator.png",
+  technologies:["HTML","CSS","JavaScript"],
+  liveVersion:"https://www.example.com/",
+  source:"https://www.github.com/example",
+},
+  {
+  name: "Project 4",
+  description:"This is a brief description of the project",
+  image:"./images/Indicator.png",
+  technologies:["HTML","CSS","JavaScript"],
+  liveVersion:"https://www.example.com/",
+  source:"https://www.github.com/example",
+},
+  {
+  name: "Project 5",
+  description:"This is a brief description of the project",
+  image:"./images/Indicator.png",
+  technologies:["HTML","CSS","JavaScript"],
+   liveVersion:"https://www.example.com/",
+  source:"https://www.github.com/example",
+},
+  {
+  name: "Project 6",
+  description:"This is a brief description of the project",
+  image:"./images/Indicator.png",
+  technologies:["HTML","CSS","JavaScript"],
+  liveVersion:"https://www.example.com/",
+  source:"https://www.github.com/example",
+}
+]

@@ -70,6 +70,10 @@ This is my first original project that designed to showcase my catalog, it is bu
 
 - [Live Demo Link](https://lincoln1883.github.io/my-portfolio-website/)
 
+
+## 🚀 Video Presentation <a name="video-presentation"></a>
+- [Video Presentation](https://www.loom.com/share/a282e5e29bb7445a9889fbccbec8edae)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

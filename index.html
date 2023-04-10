@@ -15,17 +15,25 @@
 	<body>
 		<header class="main-heading">
 			<section class="header">
-				<nav class="nav">
-					<a href="#">
+				<nav class="nav mobile-menu">
+					<a id="btn" class="menu-toggle-open" href="#">
 						<img class="menu-icon" src="./images/Icon-Menu.png" alt="mobile menu" />
 					</a>
-					<ul class="nav-list">
-						<li class="nav-list--item"><a href="#portfolio">Portfolio</a></li>
-						<li class="nav-list--item"><a href="#about">About</a></li>
-						<li class="nav-list--item"><a href="#contact">Contact</a></li>
-					</ul>
+						<ul class="nav-list mobile" id="mobile">
+							<a class="menu-toggle-close" id="close-menu" href="#">&times;</a>
+							<li class="nav-list--item">
+								<a href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-list--item">
+								<a href="#about">About</a>
+							</li>
+							<li class="nav-list--item">
+								<a href="#contact">Contact</a>
+							</li>
+							<img class="mobile-menu-img" src="./images/Light.png" alt="baseline" />
+						</ul>
 				</nav>
-			</section>
+			</section>		
 			<section class="intro">
 				<section class="intro-container">
 					<h1 class="intro-heading">
@@ -368,5 +376,6 @@
 				<img src="./images/Light.png" alt="baseline" />
 			</div>
 		</footer>
+		<script src="./script.js"></script>
 	</body>
 </html>

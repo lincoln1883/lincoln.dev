@@ -623,9 +623,11 @@ footer {
   .display-menu {
     list-style: none;
     width: 101%;
-    height: 105%;
+    height: 98vh;
     padding: 20px;
     position: absolute;
+    overflow: hidden;
+    overscroll-behavior: none;
     left: 0;
     top: -10px;
     background: #fff;
@@ -646,8 +648,8 @@ footer {
   }
 
   .mobile-menu-img {
-    position: absolute;
-    bottom: -30px;
+    position: fixed;
+    bottom: -0.1%;
     left: 50%;
     transform: translate(-50%);
   }

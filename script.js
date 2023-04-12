@@ -22,153 +22,148 @@ navLinks.forEach((element) => {
   });
 });
 
-
 // projects array
 
 const projects = [
-{
-  name: "Multi-Post Stories Gain+Glory",
-  title:"Keeping track of hundreds of components",
-  description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  mobileDescription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-  image:"./images/snapshot-portfolio.png",
-  mobileImage:"./images/snapshot-portfolio-mobile.png",
-  technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
-  skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
-  liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
-  source:"https://www.github.com/lincoln1883/my-portfolio-website",
-},
-{
-  name: "Multi-Post Stories Gain+Glory",
-  title:"Keeping track of hundreds of components",
-  description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  mobileDescription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-  image:"./images/snapshot-portfolio.png",
-  mobileImage:"./images/snapshot-portfolio-mobile.png",
-  technologies:["Ruby on Rails","JavaScript","CSS","HTML"], 
-  skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
-  liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
-  source:"https://www.github.com/lincoln1883/my-portfolio-website",
-},
   {
-  name: "Multi-Post Stories Gain+Glory",
-  title:"Keeping track of hundreds of components",
-  description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  mobileDescription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-  image:"./images/snapshot-portfolio.png",
-  mobileImage:"./images/snapshot-portfolio-mobile.png",
-  technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
-  skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
-  liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
-  source:"https://www.github.com/lincoln1883/my-portfolio-website",
-},
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    image: './images/snapshot-portfolio.png',
+    mobileImage: './images/snapshot-portfolio-mobile.png',
+    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
+    skills: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveVersion: 'https://lincoln1883.github.io/my-portfolio-website/',
+    source: 'https://www.github.com/lincoln1883/my-portfolio-website',
+  },
   {
-  name: "Multi-Post Stories Gain+Glory",
-  title:"Keeping track of hundreds of components",
-  description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  mobileDescription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-  image:"./images/snapshot-portfolio.png",
-  mobileImage:"./images/snapshot-portfolio-mobile.png",
-  technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
-  skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
-  liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
-  source:"https://www.github.com/lincoln1883/my-portfolio-website",
-},
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    image: './images/snapshot-portfolio.png',
+    mobileImage: './images/snapshot-portfolio-mobile.png',
+    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
+    skills: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveVersion: 'https://lincoln1883.github.io/my-portfolio-website/',
+    source: 'https://www.github.com/lincoln1883/my-portfolio-website',
+  },
   {
-  name: "Multi-Post Stories Gain+Glory",
-  title:"Keeping track of hundreds of components",
-  description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  mobileDescription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-  image:"./images/snapshot-portfolio.png",
-  mobileImage:"./images/snapshot-portfolio-mobile.png",
-  technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
-  skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
-  liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
-  source:"https://www.github.com/lincoln1883/my-portfolio-website",
-},
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    image: './images/snapshot-portfolio.png',
+    mobileImage: './images/snapshot-portfolio-mobile.png',
+    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
+    skills: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveVersion: 'https://lincoln1883.github.io/my-portfolio-website/',
+    source: 'https://www.github.com/lincoln1883/my-portfolio-website',
+  },
   {
-  name: "Multi-Post Stories Gain+Glory",
-  title:"Keeping track of hundreds of components",
-  description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image:"./images/snapshot-portfolio.png",
-  mobileDescription:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-  mobileImage:"./images/snapshot-portfolio-mobile.png",
-  technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
-  skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
-  liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
-  source:"https://www.github.com/lincoln1883/my-portfolio-website",
-}
-]
-
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    image: './images/snapshot-portfolio.png',
+    mobileImage: './images/snapshot-portfolio-mobile.png',
+    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
+    skills: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveVersion: 'https://lincoln1883.github.io/my-portfolio-website/',
+    source: 'https://www.github.com/lincoln1883/my-portfolio-website',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    image: './images/snapshot-portfolio.png',
+    mobileImage: './images/snapshot-portfolio-mobile.png',
+    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
+    skills: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveVersion: 'https://lincoln1883.github.io/my-portfolio-website/',
+    source: 'https://www.github.com/lincoln1883/my-portfolio-website',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    image: './images/snapshot-portfolio.png',
+    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.\n \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    mobileImage: './images/snapshot-portfolio-mobile.png',
+    technologies: ['Ruby on Rails', 'JavaScript', 'CSS', 'HTML'],
+    skills: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    liveVersion: 'https://lincoln1883.github.io/my-portfolio-website/',
+    source: 'https://www.github.com/lincoln1883/my-portfolio-website',
+  },
+];
 
 // generate projects
 
-  const worksCards = document.getElementById('works-cards');
- 
-  
-  for(const project of projects){
-    const card = document.createElement('div');
-    card.classList.add('card');
+const worksCards = document.getElementById('works-cards');
 
-    const textContainer = document.createElement('div');
-    textContainer.classList.add('text-container');
+for (let i = 0; i < projects.length; i += 1) {
+  const project = projects[i];
+  const card = document.createElement('div');
+  card.classList.add('card');
 
-    const titleContainer = document.createElement('title-container');
-    titleContainer.classList.add('title-container');
+  const textContainer = document.createElement('div');
+  textContainer.classList.add('text-container');
 
-    const projectTitle = document.createElement('h3');
-    projectTitle.classList.add('project-title');
-    projectTitle.textContent = project.name;
+  const titleContainer = document.createElement('title-container');
+  titleContainer.classList.add('title-container');
 
-    titleContainer.appendChild(projectTitle)
+  const projectTitle = document.createElement('h3');
+  projectTitle.classList.add('project-title');
+  projectTitle.textContent = project.name;
 
-    const techList = document.createElement('ul');
-    techList.classList.add('tech');
+  titleContainer.appendChild(projectTitle);
 
-    for(const tech of project.technologies){
-      const techItem = document.createElement('li');
-      techItem.textContent = tech;
-      techList.appendChild(techItem);
-    };
+  const techList = document.createElement('ul');
+  techList.classList.add('tech');
 
-    const buttonContainer = document.createElement('div');
-    buttonContainer.classList.add('button-container');
+  for (let j = 0; j < project.technologies.length; j += 1) {
+    const techItem = document.createElement('li');
+    techItem.textContent = project.technologies[j];
+    techList.appendChild(techItem);
+  }
 
-    const projectButton = document.createElement('button')
-    projectButton.classList.add('project-button');
-    projectButton.textContent = 'See project';
+  const buttonContainer = document.createElement('div');
+  buttonContainer.classList.add('button-container');
 
+  const projectButton = document.createElement('button');
+  projectButton.classList.add('project-button');
+  projectButton.textContent = 'See project';
 
-    titleContainer.appendChild(projectTitle);
-    textContainer.appendChild(titleContainer);
-    textContainer.appendChild(techList);
-    buttonContainer.appendChild(projectButton);
-    textContainer.appendChild(buttonContainer);
-    card.appendChild(textContainer);
+  titleContainer.appendChild(projectTitle);
+  textContainer.appendChild(titleContainer);
+  textContainer.appendChild(techList);
+  buttonContainer.appendChild(projectButton);
+  textContainer.appendChild(buttonContainer);
+  card.appendChild(textContainer);
 
-    worksCards.appendChild(card);
-  };
+  worksCards.appendChild(card);
+}
 
+// create popup.
 
-  // create popup.
+const body = document.querySelector('body');
+const projectButtons = document.querySelectorAll('.project-button');
+const main = document.createElement('div');
+const popupContent = document.createElement('div');
+const mediaQuery = window.matchMedia('(min-width: 768px)');
 
-  const body = document.querySelector('body');
-  const projectButtons = document.querySelectorAll(".project-button");
-  const main = document.createElement('div');
-  const popupContent = document.createElement('div');
-  const mediaQuery = window.matchMedia('(min-width: 768px)')
+for (let i = 0; i < projectButtons.length; i += 1) {
+  const button = projectButtons[i];
+  const project = projects[i];
 
-  for(let i = 0; i < projectButtons.length; i++){
-     const button = projectButtons[i];
-     const project = projects[i];
+  button.addEventListener('click', () => {
+    main.classList.add('popup-container');
+    popupContent.classList.add('popup');
 
-     button.addEventListener("click",() => {
-      main.classList.add('popup-container');
-      popupContent.classList.add('popup'); 
-    
-
-       function handleChangeMobile(e){
-        if(e.matches){
+    function handleChangeMobile(e) {
+      if (e.matches) {
         popupContent.innerHTML = `
       <div class="close-popup-container">
        <a class="close-popup" href="#">&times;</a>
@@ -194,8 +189,8 @@ const projects = [
         </ul>
        <p>${project.description}</p>
        </div>
-       `
-      }else {
+       `;
+      } else {
         popupContent.innerHTML = `
       <div class="close-popup-container">
        <a class="close-popup" href="#">&times;</a>
@@ -218,28 +213,21 @@ const projects = [
        <div class="popup-link-container">
        <a class="button" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
        <a class="button" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
-       </div>
-			 `
-        }
+       </div>`;
+      }
 
-       main.appendChild(popupContent);
-       body.appendChild(main)
-     
-      const popupClose = document.querySelector('.close-popup')
-      
-      popupClose.addEventListener('click', ()=>{
-        body.removeChild(main);  
-    });
-   }
+      main.appendChild(popupContent);
+      body.appendChild(main);
 
-   mediaQuery.addEventListener('resize', handleChangeMobile)
+      const popupClose = document.querySelector('.close-popup');
 
-   handleChangeMobile(mediaQuery)
- }); 
+      popupClose.addEventListener('click', () => {
+        body.removeChild(main);
+      });
+    }
+
+    mediaQuery.addEventListener('resize', handleChangeMobile);
+
+    handleChangeMobile(mediaQuery);
+  });
 }
-
-
-
- 
-
-

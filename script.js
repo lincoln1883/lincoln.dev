@@ -198,10 +198,7 @@ const projects = [
       </div>
        <div class="popup-first-text">
        <h2>${project.title}</h2>
-       <div class="popup-link-container">
-       <a class="button" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
-       <a class="button" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
-       </div>
+       
        </div>
        <div class="popup-last-text">
        <ul>
@@ -214,7 +211,11 @@ const projects = [
         </ul>
        <p>${project.description}</p>
        </div>
-       `
+       <div class="popup-link-container">
+       <a class="button" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
+       <a class="button" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
+       </div>
+			 `;
      }
       
 

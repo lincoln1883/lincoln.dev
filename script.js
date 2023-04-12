@@ -31,6 +31,7 @@ const projects = [
   title:"Keeping track of hundreds of components",
   description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   image:"./images/snapshot-portfolio.png",
+  mobileImage:"./images/snapshot-portfolio-mobile.png",
   technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
   skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
   liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
@@ -41,6 +42,7 @@ const projects = [
   title:"Keeping track of hundreds of components",
   description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   image:"./images/snapshot-portfolio.png",
+  mobileImage:"./images/snapshot-portfolio-mobile.png",
   technologies:["Ruby on Rails","JavaScript","CSS","HTML"], 
   skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
   liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
@@ -51,6 +53,7 @@ const projects = [
   title:"Keeping track of hundreds of components",
   description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   image:"./images/snapshot-portfolio.png",
+  mobileImage:"./images/snapshot-portfolio-mobile.png",
   technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
   skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
   liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
@@ -61,6 +64,7 @@ const projects = [
   title:"Keeping track of hundreds of components",
   description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   image:"./images/snapshot-portfolio.png",
+  mobileImage:"./images/snapshot-portfolio-mobile.png",
   technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
   skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
   liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
@@ -71,6 +75,7 @@ const projects = [
   title:"Keeping track of hundreds of components",
   description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   image:"./images/snapshot-portfolio.png",
+  mobileImage:"./images/snapshot-portfolio-mobile.png",
   technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
   skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
   liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
@@ -81,6 +86,7 @@ const projects = [
   title:"Keeping track of hundreds of components",
   description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   image:"./images/snapshot-portfolio.png",
+  mobileImage:"./images/snapshot-portfolio-mobile.png",
   technologies:["Ruby on Rails","JavaScript","CSS","HTML"],
   skills:["Codekit","Github","Javascript","Bootstrap","Terminal","Codepen"],
   liveVersion:"https://lincoln1883.github.io/my-portfolio-website/",
@@ -153,7 +159,9 @@ const projects = [
      button.addEventListener("click",() => {
       main.classList.add('popup-container');
       popupContent.classList.add('popup'); 
-      popupContent.innerHTML = `
+      if(window.innerWidth > 767){
+        console.log('greater than 767')
+        popupContent.innerHTML = `
       <div class="close-popup-container">
        <a class="close-popup" href="#">&times;</a>
       </div>
@@ -177,8 +185,38 @@ const projects = [
         <li>${project.skills[5]}</li>
         </ul>
        <p>${project.description}</p>
-       </dialog>
+       </div>
        `
+     }else {
+      console.log('less than 767')
+        popupContent.innerHTML = `
+      <div class="close-popup-container">
+       <a class="close-popup" href="#">&times;</a>
+      </div>
+      <div class="popup-image-container">
+      <img class="popup-image" src="${project.mobileImage}" alt="${project.mobileImage}">
+      </div>
+       <div class="popup-first-text">
+       <h2>${project.title}</h2>
+       <div class="popup-link-container">
+       <a class="button" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
+       <a class="button" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
+       </div>
+       </div>
+       <div class="popup-last-text">
+       <ul>
+        <li>${project.skills[0]}</li>
+        <li>${project.skills[1]}</li>
+        <li>${project.skills[2]}</li>
+        <li>${project.skills[3]}</li>
+        <li>${project.skills[4]}</li>
+        <li>${project.skills[5]}</li>
+        </ul>
+       <p>${project.description}</p>
+       </div>
+       `
+     }
+      
 
        main.appendChild(popupContent);
        body.appendChild(main)

@@ -541,6 +541,10 @@ form input {
   color: #344563;
 }
 
+.invalid {
+  background-color: mistyrose;
+}
+
 footer {
   display: flex;
   flex-direction: column;

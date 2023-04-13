@@ -232,14 +232,14 @@ for (let i = 0; i < projectButtons.length; i += 1) {
   });
 }
 
-// form validation
+// // form validation
 const form = document.querySelector('form');
 const email = document.getElementById('email');
 const error = document.createElement('span');
-const regex = /^[A-Z ]+$/;
+const regex = /^[a-z]/g;
 
 form.appendChild(error);
-const button = form.querySelector('button');
+const button = form.querySelector('.submit-button');
 form.insertBefore(error, button);
 
 error.classList.add('error');
@@ -247,13 +247,15 @@ error.classList.add('error');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const isValid = !regex.test(email.value);
+
   if (isValid) {
     email.classList.add('invalid');
-    error.textContent = 'Invalid! Email should be lowercase.';
     error.classList.add('active');
+    error.textContent = 'Invalid! Email should be lowercase...';
   } else {
-    email.classList.add('valid');
-    error.textContent = '';
+    email.classList.remove('invalid');
     error.classList.remove('active');
+    error.textContent = '';
+    form.submit();
   }
 });

@@ -231,3 +231,40 @@ for (let i = 0; i < projectButtons.length; i += 1) {
     handleChangeMobile(mediaQuery);
   });
 }
+
+// form validation
+const form = document.querySelector('form');
+const email = document.getElementById('email');
+const error = document.createElement('span');
+const textarea = document.querySelector('textarea'); 
+const regex = /^[A-Z ]+$/;
+
+form.appendChild(error)
+const button = form.querySelector('button')
+form.insertBefore(error, button)
+
+error.classList.add('error');
+
+form.addEventListener("submit",(event)=>{
+  event.preventDefault();
+  const isValid = !regex.test(email.value);
+  if(isValid){
+    email.classList.add('invalid');
+    error.textContent = "Invalid! Email should be lowercase.";
+    error.classList.add('active');  
+  }else {
+    email.classList.add('valid');
+    error.textContent = '';
+    error.classList.remove('active');
+  }
+});
+
+function showError (email) {
+  if(regex.test(email.value)){
+    error.textContent = 'Email should be lowercase.'
+    error.classList.add('active');
+  }else {
+    error.textContent = '';
+    error.classList.remove('active')
+  }
+}

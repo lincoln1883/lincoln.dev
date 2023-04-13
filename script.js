@@ -262,24 +262,22 @@ form.addEventListener('submit', (event) => {
 
 // localStorage
 
-const contactForm = document.getElementById('contact-form')
+const contactForm = document.getElementById('contact-form');
 
-  contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
+contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
 
   const nameInput = document.getElementById('name').value;
   const emailInput = document.getElementById('email').value;
   const textMessage = document.getElementById('message').value;
 
-  const formData = { nameInput,emailInput,textMessage}; 
+  const formData = { nameInput, emailInput, textMessage };
 
-  localStorage.setItem("formData",JSON.stringify(formData))
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
 
 const formData = JSON.parse(localStorage.getItem('formData'));
 
 document.getElementById('name').value = formData.nameInput;
-
 document.getElementById('email').value = formData.emailInput;
-
 document.getElementById('message').value = formData.textMessage;

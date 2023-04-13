@@ -271,7 +271,7 @@ const contactForm = document.getElementById('contact-form')
   const emailInput = document.getElementById('email').value;
   const textMessage = document.getElementById('message').value;
 
-  const formData = { nameInput,emailInput,textMessage }
+  const formData = { nameInput,emailInput,textMessage}; 
 
   localStorage.setItem("formData",JSON.stringify(formData))
 });

@@ -248,7 +248,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   const isValid = regex.test(email.value);
 
-  if(isValid) {
+  if (isValid) {
     email.classList.add('invalid');
     error.classList.add('active');
     error.textContent = 'Invalid! Email should be lowercase...';
@@ -281,6 +281,3 @@ const formData = JSON.parse(localStorage.getItem('formData'));
 document.getElementById('name').value = formData.nameInput;
 document.getElementById('email').value = formData.emailInput;
 document.getElementById('message').value = formData.textMessage;
-
-
-

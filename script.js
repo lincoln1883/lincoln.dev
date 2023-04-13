@@ -236,7 +236,7 @@ for (let i = 0; i < projectButtons.length; i += 1) {
 const form = document.querySelector('form');
 const email = document.getElementById('email');
 const error = document.createElement('span');
-const regex = /^[a-z]/g;
+const regex = /[A-Z]/;
 
 form.appendChild(error);
 const button = form.querySelector('.submit-button');
@@ -246,9 +246,9 @@ error.classList.add('error');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const isValid = !regex.test(email.value);
+  const isValid = regex.test(email.value);
 
-  if (isValid) {
+  if(isValid) {
     email.classList.add('invalid');
     error.classList.add('active');
     error.textContent = 'Invalid! Email should be lowercase...';
@@ -281,3 +281,6 @@ const formData = JSON.parse(localStorage.getItem('formData'));
 document.getElementById('name').value = formData.nameInput;
 document.getElementById('email').value = formData.emailInput;
 document.getElementById('message').value = formData.textMessage;
+
+
+

@@ -61,6 +61,8 @@ This is my first original project that designed to showcase my catalog, it is bu
 - **[Added Mobile version]**
 - **[Added Button Animation when hover or clicked]**
 - **[Added Text transition to the main Heading]**
+- **[Added DOM functionality using JavaScript]**
+- **[Add form validation using JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +148,6 @@ open the index.html file in your browser using the live server extension.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Add functionality using Javascript]**
 - **[Add styling using SASS]**
 - **[Add more functionality]**
 

@@ -533,7 +533,7 @@ form input {
   text-decoration: none;
 }
 
-.error.active{
+.error.active {
   padding-top: 10px;
   font-weight: 400;
   font-size: 16px;

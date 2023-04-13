@@ -276,3 +276,10 @@ const contactForm = document.getElementById('contact-form')
   localStorage.setItem("formData",JSON.stringify(formData))
 });
 
+const formData = JSON.parse(localStorage.getItem('formData'));
+
+document.getElementById('name').value = formData.nameInput;
+
+document.getElementById('email').value = formData.emailInput;
+
+document.getElementById('message').value = formData.textMessage;

@@ -259,3 +259,20 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// localStorage
+
+const contactForm = document.getElementById('contact-form')
+
+  contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+  const nameInput = document.getElementById('name').value;
+  const emailInput = document.getElementById('email').value;
+  const textMessage = document.getElementById('message').value;
+
+  const formData = { nameInput,emailInput,textMessage }
+
+  localStorage.setItem("formData",JSON.stringify(formData))
+});
+

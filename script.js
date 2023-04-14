@@ -273,7 +273,7 @@ contactForm.addEventListener('submit', (e) => {
 
   const formData = { nameInput, emailInput, textMessage };
 
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem('formData', JSON.stringify(formDatas));
 });
 
 const formData = JSON.parse(localStorage.getItem('formData'));

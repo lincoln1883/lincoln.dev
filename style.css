@@ -13,6 +13,7 @@ body {
 
 button {
   transition-duration: 0.5s;
+  transform: translateX(1px)scaleX(1.1);
   transition-timing-function: ease-in-out;
 }
 
@@ -176,7 +177,7 @@ button {
 }
 
 .card {
-  background-image: url('./images/Img-Placeholder.png');
+  background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -221,11 +222,10 @@ button {
 
 .tech {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 329px;
   height: 32px;
-  gap: 8px;
   list-style: none;
   background-color: #fff;
 }
@@ -403,9 +403,7 @@ button:enabled {
 }
 
 button:hover {
-  width: 200px;
   font-weight: 900;
-  font-size: x-large;
   color: #fff;
   text-transform: capitalize;
   background: #36b37f;
@@ -500,16 +498,14 @@ form input {
 }
 
 .submit-button {
-  width: 129px;
-  height: 48px;
+  height: 50px;
   background: #36b37f;
   border-radius: 4px;
   color: #fff;
   font-weight: 500;
   font-size: 17px;
-  letter-spacing: 0.03em;
   padding: 10px;
-  margin: 24px 0 31px;
+  margin: 20px 5px 0;
 }
 
 .contact-details {
@@ -613,6 +609,7 @@ footer {
 }
 
 @media (max-width: 767px) {
+
   .nav-list,
   .form-img-center,
   .form-desktop-image,
@@ -711,7 +708,7 @@ footer {
     height: 92%;
     display: block;
     padding: 10px;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
 
   .close-popup-container a {
@@ -848,10 +845,10 @@ footer {
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
-    width: 75%;
+    width: 50%;
     display: block;
-    height: 90%;
-    overflow-y: hidden;
+    height: 95%;
+    overflow-y: scroll;
   }
 
   .close-popup-container {
@@ -877,7 +874,6 @@ footer {
     padding-bottom: 10px;
     margin: auto;
     width: 92%;
-    height: 45%;
   }
 
   .popup-image {

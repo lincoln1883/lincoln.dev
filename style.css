@@ -13,7 +13,7 @@ body {
 
 button {
   transition-duration: 0.5s;
-  transform: translateX(1px)scaleX(1.1);
+  transform: translateX(1px) scaleX(1.1);
   transition-timing-function: ease-in-out;
 }
 
@@ -609,7 +609,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-
   .nav-list,
   .form-img-center,
   .form-desktop-image,

@@ -26,15 +26,15 @@ navLinks.forEach((element) => {
 
 const projects = [
   {
-    name: 'Reggae Sumfest Capstone',
-    title: 'This is the first capstone project',
+    name: 'Reggae Sumfest',
+    title: 'Reggae Sumfest',
     description:
       'This project was a requirement of module one, where we learned HTML, CSS and JavaScript, also the importance of git workflows following best practices of committing early and often. The use of linters to ensure code quality follows the HTML and CSS best practices.',
     mobileDescription:
       'This project was a requirement of module one, where we learned HTML, CSS and JavaScript, also the importance of git workflows following best practices of committing early and often. The use of linters to ensure code quality follows the HTML and CSS best practices.',
     image: './images/capstone1.png ',
     mobileImage: './images/capstone-mob1.png',
-    technologies: ['JavaScript', 'CSS', 'HTML'],
+    technologies: ['JavaScript', 'CSS', 'HTML', 'linters'],
     skills: [
       'Codekit',
       'Github',
@@ -47,15 +47,15 @@ const projects = [
     source: 'https://www.github.com/lincoln1883/mod1-capstone-project',
   },
   {
-    name: 'Space X Capstone',
-    title: 'This is the first capstone project',
+    name: 'Space Xplorers',
+    title: 'Space Xplorers',
     description:
       'The Space X app is a React project where we build a Group Capstone Project. It uses Axios to fetch data from rockets and missions API endpoints. Redux (useSelector and useDispatch) handles state updates for mission and rocket reservations and cancellations. React router enables page navigation, while useEffect fetches data.',
     mobileDescription:
       'The Space X app is a React project where we build a Group Capstone Project. It uses Axios to fetch data from rockets and missions API endpoints. Redux (useSelector and useDispatch) handles state updates for mission and rocket reservations and cancellations. React router enables page navigation, while useEffect fetches data.',
     image: './images/space-x.png',
     mobileImage: './images/space-x.png',
-    technologies: ['REACT', 'REDUX', 'BOOTSTRAP', 'JEST'],
+    technologies: ['REACT', 'REDUX', 'BOOTSTRAP', 'JEST', 'REACT ROUTER'],
     skills: [
       'Codekit',
       'Github',
@@ -68,15 +68,15 @@ const projects = [
     source: 'https://github.com/lincoln1883/space-x',
   },
   {
-    name: 'Net-flix Capstone',
-    title: 'Keeping track of hundreds of components',
+    name: 'Popcorn-flix',
+    title: 'Popcorn-flix',
     description:
       'The Popcorn Flix App is the Capstone project for React module three where we are required to build an SPA utilizing the concepts we learnt. I used Axios to make calls to a movies API to fetch data, I used Redux( useSelector and useDispatch) to update the state by filtering movies by title. I can navigate from the home page to a single movie page',
     mobileDescription:
       'The Popcorn Flix App is the Capstone project for React module three where we are required to build an SPA utilizing the concepts we learnt. I used Axios to make calls to a movies API to fetch data, I used Redux( useSelector and useDispatch) to update the state by filtering movies by title. I can navigate from the home page to a single movie page.',
     image: './images/netflix.png',
     mobileImage: './images/netflix.png',
-    technologies: ['REACT', 'REDUX', 'TAILWIND', 'JEST'],
+    technologies: ['REACT', 'REDUX', 'TAILWIND', 'JEST', 'REACT ROUTER'],
     skills: [
       'Codekit',
       'Github',
@@ -90,14 +90,14 @@ const projects = [
   },
   {
     name: 'Math Magicians',
-    title: 'Keeping track of hundreds of components',
+    title: 'Math Magicians',
     description:
       'The Math magicians app is a project assignment of module three where we are required to build our first React app. It is a simple math calculator where you can perform basic math operations.It features include React Hooks,React Router, Jest and React Testing Library.',
     mobileDescription:
       'The Math magicians app is a project assignment of module three where we are required to build our first React app. It is a simple math calculator where you can perform basic math operations.It features include React Hooks,React Router, Jest and React Testing Library.',
     image: './images/math-magicians.png',
     mobileImage: './images/math-magicians.png',
-    technologies: ['REACT', 'JavaScript', 'CSS', 'JEST'],
+    technologies: ['REACT', 'CSS', 'JEST', 'REACT ROUTER'],
     skills: [
       'Codekit',
       'Github',
@@ -111,14 +111,14 @@ const projects = [
   },
   {
     name: 'Pokemon World',
-    title: 'Keeping track of hundreds of components',
+    title: 'Pokemon World',
     description:
       'The JavaScript capstone project is about building your own web application based on an external API.',
     mobileDescription:
       'The JavaScript capstone project is about building your own web application based on an external API.',
     image: './images/pokemon.png',
     mobileImage: './images/pokemon.png',
-    technologies: ['JavaScript', 'CSS', 'HTML'],
+    technologies: ['JavaScript', 'CSS', 'HTML', 'Webpack'],
     skills: [
       'Codekit',
       'Github',
@@ -132,14 +132,14 @@ const projects = [
   },
   {
     name: 'Anancy Bookstore',
-    title: 'Keeping track of hundreds of components',
+    title: 'Anancy Bookstore',
     description:
       'The Anancy Bookstore app is a project assignment of module three where we are required to build our second React app. It is a simple bookstore where you can add and delete books. features include React Hooks,React Router, App wide state Management with and Redux & Redux Toolkit and Api calls with Axios',
     image: './images/bookstore.png',
     mobileDescription:
       'The Anancy Bookstore app is a project assignment of module three where we are required to build our second React app. It is a simple bookstore where you can add and delete books. features include React Hooks,React Router, App wide state Management with and Redux & Redux Toolkit and Api calls with Axios',
     mobileImage: './images/bookstore.png',
-    technologies: ['React', 'Redux', 'JavaScript', 'CSS', 'HTML'],
+    technologies: ['React', 'Redux', 'Tailwind CSS', 'Jest', 'React-Router'],
     skills: [
       'Codekit',
       'Github',
@@ -262,6 +262,7 @@ for (let i = 0; i < projectButtons.length; i += 1) {
         <li>${project.technologies[0]}</li>
         <li>${project.technologies[2]}</li>
         <li>${project.technologies[1]}</li>
+        <li>${project.technologies[3]}</li>
         </ul>
        <p>${project.mobileDescription}</p>
        </div>

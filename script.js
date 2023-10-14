@@ -26,15 +26,18 @@ navLinks.forEach((element) => {
 
 const projects = [
   {
-    name: 'Reggae Sumfest',
-    title: 'Reggae Sumfest',
+    name: 'Handyhome Hub',
+    title: 'Handyhome Hub',
     description:
-      'This project was a requirement of module one, where we learned HTML, CSS and JavaScript, also the importance of git workflows following best practices of committing early and often. The use of linters to ensure code quality follows the HTML and CSS best practices.',
+        'This application helps homeowners to connect with specialized home service providers. '
+        + 'It provides a platform for homeowners to find and hire professionals for various home services.'
+        + 'Build as an API capstone project for the Microverse program,'
+        + ' it uses the Ruby on Rails framework to build the backend API and React and Redux for the frontend.',
     mobileDescription:
-      'This project was a requirement of module one, where we learned HTML, CSS and JavaScript, also the importance of git workflows following best practices of committing early and often. The use of linters to ensure code quality follows the HTML and CSS best practices.',
-    image: './images/capstone1.png ',
-    mobileImage: './images/capstone-mob1.png',
-    technologies: ['JavaScript', 'CSS', 'HTML', 'linters'],
+        'This application helps homeowners to connect with specialized home service providers.',
+    image: './images/capstoneDT.png',
+    mobileImage: './images/capstoneDT.png',
+    technologies: ['React', 'Redux', 'Tailwind', 'React-Router', 'Jest', 'Axios'],
     skills: [
       'Codekit',
       'Github',
@@ -43,40 +46,19 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    liveVersion: 'https://lincoln1883.github.io/mod1-capstone-project/',
-    source: 'https://www.github.com/lincoln1883/mod1-capstone-project',
-  },
-  {
-    name: 'Space Xplorers',
-    title: 'Space Xplorers',
-    description:
-      'The Space X app is a React project where we build a Group Capstone Project. It uses Axios to fetch data from rockets and missions API endpoints. Redux (useSelector and useDispatch) handles state updates for mission and rocket reservations and cancellations. React router enables page navigation, while useEffect fetches data.',
-    mobileDescription:
-      'The Space X app is a React project where we build a Group Capstone Project. It uses Axios to fetch data from rockets and missions API endpoints. Redux (useSelector and useDispatch) handles state updates for mission and rocket reservations and cancellations. React router enables page navigation, while useEffect fetches data.',
-    image: './images/space-x.png',
-    mobileImage: './images/space-x.png',
-    technologies: ['REACT', 'REDUX', 'BOOTSTRAP', 'JEST', 'REACT ROUTER'],
-    skills: [
-      'Codekit',
-      'Github',
-      'Javascript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    liveVersion: 'https://spacexplorers.netlify.app/',
-    source: 'https://github.com/lincoln1883/space-x',
+    liveVersion: 'https://handyhomehub.netlify.app/',
+    source: 'https://github.com/lincoln1883/appointment-capstone-frontend',
   },
   {
     name: 'Popcorn-flix',
     title: 'Popcorn-flix',
     description:
-      'The Popcorn Flix App is the Capstone project for React module three where we are required to build an SPA utilizing the concepts we learnt. I used Axios to make calls to a movies API to fetch data, I used Redux( useSelector and useDispatch) to update the state by filtering movies by title. I can navigate from the home page to a single movie page',
+        'The Popcorn Flix App is the Capstone project for React module three where we are required to build an SPA utilizing the concepts we learnt. I used Axios to make calls to a movies API to fetch data, I used Redux( useSelector and useDispatch) to update the state by filtering movies by title. I can navigate from the home page to a single movie page',
     mobileDescription:
-      'The Popcorn Flix App is the Capstone project for React module three where we are required to build an SPA utilizing the concepts we learnt. I used Axios to make calls to a movies API to fetch data, I used Redux( useSelector and useDispatch) to update the state by filtering movies by title. I can navigate from the home page to a single movie page.',
+        'The Popcorn Flix App is the Capstone project for React module three where we are required to build an SPA utilizing the concepts we learnt. I used Axios to make calls to a movies API to fetch data, I used Redux( useSelector and useDispatch) to update the state by filtering movies by title. I can navigate from the home page to a single movie page.',
     image: './images/netflix.png',
     mobileImage: './images/netflix.png',
-    technologies: ['REACT', 'REDUX', 'TAILWIND', 'JEST', 'REACT ROUTER'],
+    technologies: ['React', 'Redux', 'Tailwind', 'Jest', 'React Router', 'Axios'],
     skills: [
       'Codekit',
       'Github',
@@ -89,6 +71,27 @@ const projects = [
     source: 'https://www.github.com/lincoln1883/net-flix-capstone',
   },
   {
+    name: 'Space Xplorers',
+    title: 'Space Xplorers',
+    description:
+      'The Space X app is a React project where we build a Group Capstone Project. It uses Axios to fetch data from rockets and missions API endpoints. Redux (useSelector and useDispatch) handles state updates for mission and rocket reservations and cancellations. React router enables page navigation, while useEffect fetches data.',
+    mobileDescription:
+      'The Space X app is a React project where we build a Group Capstone Project. It uses Axios to fetch data from rockets and missions API endpoints. Redux (useSelector and useDispatch) handles state updates for mission and rocket reservations and cancellations. React router enables page navigation, while useEffect fetches data.',
+    image: './images/space-x.png',
+    mobileImage: './images/space-x.png',
+    technologies: ['React', 'Redux', 'Bootstrap', 'React Router', 'Axios'],
+    skills: [
+      'Codekit',
+      'Github',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    liveVersion: 'https://spacexplorers.netlify.app/',
+    source: 'https://github.com/lincoln1883/space-x',
+  },
+  {
     name: 'Math Magicians',
     title: 'Math Magicians',
     description:
@@ -97,7 +100,7 @@ const projects = [
       'The Math magicians app is a project assignment of module three where we are required to build our first React app. It is a simple math calculator where you can perform basic math operations.It features include React Hooks,React Router, Jest and React Testing Library.',
     image: './images/math-magicians.png',
     mobileImage: './images/math-magicians.png',
-    technologies: ['REACT', 'CSS', 'JEST', 'REACT ROUTER'],
+    technologies: ['React', 'Css', 'Jest', 'React Router', 'Axios'],
     skills: [
       'Codekit',
       'Github',
@@ -108,27 +111,6 @@ const projects = [
     ],
     liveVersion: 'https://math-magician-iq2v.onrender.com/',
     source: 'https://www.github.com/lincoln1883/math-magicians',
-  },
-  {
-    name: 'Pokemon World',
-    title: 'Pokemon World',
-    description:
-      'The JavaScript capstone project is about building your own web application based on an external API.',
-    mobileDescription:
-      'The JavaScript capstone project is about building your own web application based on an external API.',
-    image: './images/pokemon.png',
-    mobileImage: './images/pokemon.png',
-    technologies: ['JavaScript', 'CSS', 'HTML', 'Webpack'],
-    skills: [
-      'Codekit',
-      'Github',
-      'Javascript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    liveVersion: 'https://juandiegoguerra.github.io/Module_2-Capstone/',
-    source: 'https://github.com/lincoln1883/Module_2-Capstone',
   },
   {
     name: 'Anancy Bookstore',
@@ -151,14 +133,36 @@ const projects = [
     liveVersion: 'https://anancy-bookstore.netlify.app/',
     source: 'https://github.com/lincoln1883/anancy-bookstore',
   },
+  {
+    name: 'Reggae Sumfest',
+    title: 'Reggae Sumfest',
+    description:
+        'This project was a requirement of module one, where we learned HTML, CSS and JavaScript, also the importance of git workflows following best practices of committing early and often. The use of linters to ensure code quality follows the HTML and CSS best practices.',
+    mobileDescription:
+        'This project was a requirement of module one, where we learned HTML, CSS and JavaScript, also the importance of git workflows following best practices of committing early and often. The use of linters to ensure code quality follows the HTML and CSS best practices.',
+    image: './images/capstone1.png ',
+    mobileImage: './images/capstone-mob1.png',
+    technologies: ['JavaScript', 'Css', 'Html', 'linters'],
+    skills: [
+      'Codekit',
+      'Github',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    liveVersion: 'https://lincoln1883.github.io/mod1-capstone-project/',
+    source: 'https://www.github.com/lincoln1883/mod1-capstone-project',
+  },
 ];
 
 // generate projects
 
 const worksCards = document.getElementById('works-cards');
 
-for (let i = 0; i < projects.length; i += 1) {
-  const project = projects[i];
+// eslint-disable-next-line no-restricted-syntax
+for (const element of projects) {
+  const project = element;
   const card = document.createElement('div');
   card.classList.add('card');
   card.style.backgroundImage = `url(${project.image})`;
@@ -178,9 +182,10 @@ for (let i = 0; i < projects.length; i += 1) {
   const techList = document.createElement('ul');
   techList.classList.add('tech');
 
-  for (let j = 0; j < project.technologies.length; j += 1) {
+  // eslint-disable-next-line no-restricted-syntax
+  for (const element of project.technologies) {
     const techItem = document.createElement('li');
-    techItem.textContent = project.technologies[j];
+    techItem.textContent = element;
     techList.appendChild(techItem);
   }
 
@@ -224,7 +229,7 @@ for (let i = 0; i < projectButtons.length; i += 1) {
        <a class="close-popup" href="#">&times;</a>
       </div>
       <div class="popup-image-container">
-      <img class="popup-image" src="${project.image}" alt="">
+      <img class="popup-image" src="${project.mobileImage}" alt="">
       </div>
        <div class="popup-first-text">
        <h2>${project.title}</h2>

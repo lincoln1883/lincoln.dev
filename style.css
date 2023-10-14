@@ -492,8 +492,8 @@ form input {
   height: 20px;
   background-color: #fff;
   position: absolute;
-  right: 1.5px;
-  bottom: 1.5px;
+  right: 2px;
+  bottom: 2px;
   color: #60c095;
 }
 
@@ -663,7 +663,7 @@ footer {
   }
 
   .main-heading {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .side-image {
@@ -684,6 +684,11 @@ footer {
 
   .intro-container {
     justify-content: center;
+    margin-top: 30px;
+  }
+
+  .action {
+    margin-top: 40px;
   }
 
   .popup-container {

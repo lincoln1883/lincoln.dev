@@ -190,6 +190,13 @@ button {
   margin-top: 20px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.54);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
 }
 
 .text-container {

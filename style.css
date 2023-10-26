@@ -53,10 +53,6 @@ button {
   border-radius: 8px;
 }
 
-.nav-list--item a:hover {
-  color: #36b37f;
-}
-
 .menu-icon {
   padding-right: 20px;
 }
@@ -555,6 +551,10 @@ form input {
 
 .contact-details a {
   text-decoration: none;
+}
+
+.nav-list--item a:hover {
+  color: #36b37f;
 }
 
 .error.active {

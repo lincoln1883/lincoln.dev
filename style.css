@@ -620,6 +620,14 @@ footer {
     margin-bottom: 0;
   }
 
+  .intro {
+    margin-top: 150px;
+  }
+
+  .main {
+    margin-top: 150px;
+  }
+
   .side-image {
     top: -70px;
   }
@@ -627,6 +635,20 @@ footer {
   .about-me__text {
     width: 100%;
     background-position-y: bottom;
+  }
+
+  .contact-me {
+    margin: 54px 30px 58px 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .intro-heading {
+    margin-top: 100px;
+  }
+
+  .contact-me {
+    margin-top: 100px;
   }
 }
 
@@ -675,6 +697,10 @@ footer {
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
+  .menu-toggle-open {
+    margin-top: 20px;
+  }
+
   .menu-toggle-close {
     display: inline-block;
     text-decoration: none;
@@ -694,6 +720,10 @@ footer {
     margin-bottom: 50px;
   }
 
+  .works-header {
+    margin-top: 100px;
+  }
+
   .side-image {
     top: 0;
   }
@@ -708,6 +738,11 @@ footer {
     background-image: url('./images/header-illsutration-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-top: 100px;
+  }
+
+  .main {
+    margin-top: 200px;
   }
 
   .intro-container {
@@ -726,6 +761,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+    margin-top: 60px;
   }
 
   .popup {
@@ -756,7 +792,6 @@ footer {
 
   .popup-image {
     width: 100%;
-    height: 500px;
   }
 
   .popup-first-text {
@@ -879,13 +914,13 @@ footer {
     border-radius: 8px;
     width: 80%;
     display: block;
-    height: 95%;
+    height: -webkit-fill-available;
     overflow-y: scroll;
     padding-bottom: 30px;
+    margin-top: 80px;
   }
 
   .close-popup-container {
-    margin: 0 auto;
     padding-bottom: 10px;
     width: 96%;
     display: flex;

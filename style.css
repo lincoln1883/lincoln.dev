@@ -26,10 +26,13 @@ button {
 }
 
 .header {
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
   height: 48px;
   width: 100%;
+  z-index: 100;
 }
 
 .nav {
@@ -37,11 +40,21 @@ button {
   flex-direction: row-reverse;
   align-items: flex-start;
   padding: 8px;
-  height: 40px;
+  height: 80px;
   width: 100%;
   left: 311px;
-  top: 4px;
+  top: 0;
   border-radius: 8px;
+  background: #fff;
+}
+
+.nav-list--item:hover {
+  background-color: #ebecf0;
+  border-radius: 8px;
+}
+
+.nav-list--item a:hover {
+  color: #36b37f;
 }
 
 .menu-icon {
@@ -375,6 +388,14 @@ button {
   height: 316px;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
+}
+
+.about-me__card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -moz-transform: scale(1.1);
 }
 
 .about-me__image {

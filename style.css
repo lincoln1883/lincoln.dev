@@ -26,10 +26,13 @@ button {
 }
 
 .header {
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
   height: 48px;
   width: 100%;
+  z-index: 100;
 }
 
 .nav {
@@ -37,10 +40,16 @@ button {
   flex-direction: row-reverse;
   align-items: flex-start;
   padding: 8px;
-  height: 40px;
+  height: 80px;
   width: 100%;
   left: 311px;
-  top: 4px;
+  top: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.nav-list--item:hover {
+  background-color: #ebecf0;
   border-radius: 8px;
 }
 
@@ -190,6 +199,13 @@ button {
   margin-top: 20px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.54);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
 }
 
 .text-container {
@@ -370,6 +386,14 @@ button {
   border-radius: 8px;
 }
 
+.about-me__card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -moz-transform: scale(1.1);
+}
+
 .about-me__image {
   padding-top: 20px;
   display: flex;
@@ -527,6 +551,10 @@ form input {
 
 .contact-details a {
   text-decoration: none;
+}
+
+.nav-list--item a:hover {
+  color: #36b37f;
 }
 
 .error.active {

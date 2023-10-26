@@ -234,8 +234,8 @@ for (let i = 0; i < projectButtons.length; i += 1) {
        <div class="popup-first-text">
        <h2>${project.title}</h2>
        <div class="popup-link-container">
-       <a class="button" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
-       <a class="button" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
+       <a class="button" target="_blank" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
+       <a class="button" target="_blank" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
        </div>
        </div>
        <div class="popup-last-text">
@@ -272,8 +272,8 @@ for (let i = 0; i < projectButtons.length; i += 1) {
        <p>${project.mobileDescription}</p>
        </div>
        <div class="popup-link-container">
-       <a class="button" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
-       <a class="button" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
+       <a class="button" target="_blank" href="${project.liveVersion}"><img src="./images/Enabled1.png" alt=""></a>
+       <a class="button" target="_blank" href="${project.source}"><img src="./images/Enabled.png" alt=""></a>
        </div>`;
       }
 
